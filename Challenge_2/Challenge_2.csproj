@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1A44489-B58E-47BD-A821-197A5C09412F}</ProjectGuid>
+    <ProjectGuid>{C0A311FE-3717-4E6F-82E6-B7E0508282F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Challenge_1</RootNamespace>
-    <AssemblyName>Challenge_1</AssemblyName>
+    <RootNamespace>Challenge_2</RootNamespace>
+    <AssemblyName>Challenge_2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Cafe.txt" />
+    <Content Include="Claim.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
